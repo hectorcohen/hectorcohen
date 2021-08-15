@@ -16,11 +16,11 @@ const hector-dev = {
             js: ["node", "express",],
         },
         frontEnd: {
-            js: ["Vue", "Nuxt", "Angular"],
-            css: ["materialize", "vuetify", "bootstrap"]
+            js: ["Vue", "Nuxt", "Angular", "React"],
+            css: ["materialize", "vuetify", "bootstrap", "css"]
         },
         mobileApp: {
-            native: ["Android Development", "Ios Development"]
+            native: ["Android Development", "Ios Development", "React Native"]
         },
         databases: ["mongo", "MySql", "sqlite"],
         misc: ["Firebase", "Socket.IO"]

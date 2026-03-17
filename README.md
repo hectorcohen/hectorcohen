@@ -13,17 +13,17 @@ const hector-dev = {
     askMeAbout: ["web dev", "tech", "app dev"],
     technologies: {
         backEnd: {
-            js: ["node", "express",],
+            js: ["node", "express", "feathersjs", "nestjs"],
         },
         frontEnd: {
             js: ["Vue", "Nuxt", "Angular", "React"],
-            css: ["materialize", "vuetify", "bootstrap", "css"]
+            css: ["materialize", "vuetify", "bootstrap", "css", "tailwindCSS"]
         },
         mobileApp: {
             native: ["Android Development", "Ios Development", "React Native"]
         },
-        databases: ["mongo", "MySql", "sqlite"],
-        misc: ["Firebase", "Socket.IO"]
+        databases: ["mongo", "MySql", "sqlite", "postgres"],
+        misc: ["Firebase", "Socket.IO", "convex"]
     },
     architecture: ["Serverless Architecture", "Progressive web applications", "Single page applications"],
     currentFocus: "Ios Mobile App Development",
